@@ -1,0 +1,108 @@
+:root {
+    --color-principal: #00a651;
+    --color-secundario: #ff7f27;
+}
+
+/* Fondo general con píldoras suavizadas */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-image:
+        linear-gradient(rgba(245,247,251,0.92), rgba(245,247,251,0.92)),
+        url("../img/pexels-shvetsa-3683041.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navbar-brand span.farma-brand {
+    font-weight: 700;
+    font: size 15px;
+    color: var(--color-principal);
+    
+}
+
+.farmaFont{
+        font-weight: 700;
+    color: var(--color-principal);
+}
+
+
+.hero-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.15rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(0,166,81,0.08);
+    color: #0f5132;
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+}
+
+.hero-tag span {
+    font-weight: 600;
+}
+
+.hero-image-main {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2.5rem rgba(15, 52, 96, 0.18);
+}
+
+.hero-image-main img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-image-note {
+    font-size: 0.75rem;
+    color: #6c757d;
+}
+
+.card-producto img {
+    height: 190px;
+    object-fit: cover;
+}
+
+.badge-receta {
+    font-size: 0.75rem;
+}
+
+.badge-receta[data-requiere="Sí"] {
+    background-color: rgba(255,127,39,0.15);
+    color: #dc6a00;
+}
+
+.badge-receta[data-requiere="No"] {
+    background-color: rgba(0,166,81,0.12);
+    color: #0f5132;
+}
+
+.footer-bg {
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+.footer-bg a {
+    color: #93c5fd;
+    text-decoration: none;
+}
+
+.footer-bg a:hover {
+    text-decoration: underline;
+}
+
+.whatsapp-float {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 1050;
+}
+
+@media (max-width: 576px) {
+    .whatsapp-float span.txt-wa {
+        display: none;
+    }
+}
