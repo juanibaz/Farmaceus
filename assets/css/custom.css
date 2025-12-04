@@ -7,7 +7,7 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     background-image:
-        linear-gradient(rgba(245,247,251,0.92), rgba(245,247,251,0.92)),
+        linear-gradient(rgba(251, 248, 245, 0.844), rgba(245,247,251,0.92)),
         url("../img/pexels-shvetsa-3683041.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +97,6 @@ body {
 .whatsapp-float {
     position: fixed;
     right: 1.25rem;
-    bottom: 1.25rem;
     z-index: 1050;
 }
 
